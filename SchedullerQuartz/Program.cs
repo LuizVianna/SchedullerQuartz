@@ -61,7 +61,7 @@ using Quartz.Logging;
     {
         public async Task Execute(IJobExecutionContext context)
         {
-            await Console.Out.WriteLineAsync($"Hello! ¬¬ {DateTime.Now.ToString("HH:MM:ss")}");
+            await Console.Out.WriteLineAsync($"Hello! ¬¬ {DateTime.Now.ToString("hh:mm:ss")}");
         }
     }
 
